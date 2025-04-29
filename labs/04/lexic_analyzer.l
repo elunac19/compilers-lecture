@@ -2,6 +2,8 @@
 #include <stdio.h>
 %}
 
+%option noyywrap
+
 letter		[A-Za-z]
 digit		[0-9]
 integer		{digit}+
