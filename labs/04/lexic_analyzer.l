@@ -4,7 +4,7 @@
 
 %option noyywrap
 
-letter		[A-Za-z]
+letter		[a-eg-hj-opq-z]
 digit		[0-9]
 integer		{digit}+
 float		(0|[1-9]{digit}*)\.({digit}*[1-9]|0)
